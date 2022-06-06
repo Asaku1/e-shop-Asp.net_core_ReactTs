@@ -60,3 +60,15 @@ C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\CloudinaryDotNet.
 C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ayogh\Desktop\Asp.net_Core_React\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

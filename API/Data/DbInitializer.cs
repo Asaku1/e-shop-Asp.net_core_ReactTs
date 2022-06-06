@@ -1,4 +1,5 @@
 ﻿using API.Entities;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,27 @@ namespace API.Data
     public class DbInitializer
     {
         //"context" gets all the properties of "StoreContext"
-        public static void Initialize(StoreContext context)
+        public static async Task Initialize(StoreContext context, UserManager<User> userManager)
         {
+            if (!userManager.Users.Any())
+            {
+                var user = new User
+                {
+                    UserName = "bob",
+                    Email = "bob@test.com"
+                };
+                await userManager.CreateAsync(user, "Pa$$w0rd"); //"bob" is a "user" with password="Pa$$w0rd".
+                await userManager.AddToRoleAsync(user, "Member"); //bob's role is "Member".
+
+                var admin = new User
+                {
+                    UserName = "admin",
+                    Email = "admin@test.com"
+                };
+                await userManager.CreateAsync(admin, "Pa$$w0rd"); //"admin" is a "user" with password="Pa$$w0rd".
+                await userManager.AddToRolesAsync(admin, new[] {"Member", "Admin"}); //the admin's role is both a "Member" & an "Admin"
+            }
+
             ////TableName = Products
             if (context.Products.Any()) return;
 

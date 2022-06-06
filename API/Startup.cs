@@ -16,6 +16,8 @@ using Microsoft.EntityFrameworkCore;
 using API.Middleware;
 using API.RequestHelpers;
 using API.Services;
+using API.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace API
 {
@@ -47,8 +49,20 @@ namespace API
             ////Add CORS
             services.AddCors();
 
+            ////Add IdentityCore
+            services.AddIdentityCore<User>(opt =>
+            {
+                opt.User.RequireUniqueEmail = true;
+            })
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<StoreContext>();
+            services.AddAuthentication();
+            services.AddAuthorization();
+
             ////ImageService
             services.AddScoped<ImageService>();
+
+            services.AddScoped<TokenService>();
         }
 
 
