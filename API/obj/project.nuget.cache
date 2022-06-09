@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jw+V70zHVK2aawEZNuFpTuYZlxt3SraseaOZqntIDuKi1QBIK5th172u3FtkStj6qnLmceWpva5gNeIgtXmI1g==",
+  "dgSpecHash": "+0pc9uf5xX7AAk5hyfmEkeGRXF1ANnihZIAiYSu9ORoMXbzLCN1aCgxjHLPH6R/Kicixz9bPYvC8Y2hT6TO5MQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ayogh\\Desktop\\Asp.net_Core_React\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Ayogh\\Desktop\\Asp.Net_Core_React_Checkout\\e-shop-Asp.net_core_ReactTs\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayogh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ayogh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

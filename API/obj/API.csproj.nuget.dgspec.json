@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ayogh\\Desktop\\Asp.net_Core_React\\API\\API.csproj": {}
+    "C:\\Users\\Ayogh\\Desktop\\Asp.Net_Core_React_Checkout\\e-shop-Asp.net_core_ReactTs\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ayogh\\Desktop\\Asp.net_Core_React\\API\\API.csproj": {
+    "C:\\Users\\Ayogh\\Desktop\\Asp.Net_Core_React_Checkout\\e-shop-Asp.net_core_ReactTs\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ayogh\\Desktop\\Asp.net_Core_React\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Ayogh\\Desktop\\Asp.Net_Core_React_Checkout\\e-shop-Asp.net_core_ReactTs\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Ayogh\\Desktop\\Asp.net_Core_React\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Ayogh\\Desktop\\Asp.Net_Core_React_Checkout\\e-shop-Asp.net_core_ReactTs\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Ayogh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ayogh\\Desktop\\Asp.net_Core_React\\API\\obj\\",
+        "outputPath": "C:\\Users\\Ayogh\\Desktop\\Asp.Net_Core_React_Checkout\\e-shop-Asp.net_core_ReactTs\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayogh\\AppData\\Roaming\\NuGet\\NuGet.Config",
